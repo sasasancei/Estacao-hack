@@ -1,31 +1,24 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #A2CD5A;
+#navegacao{
+    display:flex;
+    background: blue;
+    flex-wrap: wrap;
+    
+    
 }
 
-li {
-    float: right;
-}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 img {
     width: 400px;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 70%;
+    border-style: dotted;
+    border-color: violet;
 }
 
 .clearfix{
     overflow: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSlaaDJ0hokuX6rcpkZR-xPZ3dSif30cddG6d1Aq9LjWX5kJE")
 }
 
 .img1{
@@ -48,18 +41,50 @@ div{
 p {
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 20px;
 }
 
 footer{
 
     list-style-type: none;
-    margin: 0;
-    padding: 10px;
+    margin: 0px;
+    padding: 30px;
     overflow: hidden;
-    background-color: #A2CD5A;
+    background-color: black;
     text-align: center;
+    color: white;
 }
 
-h1{
-    padding: 0px 0px 0px 60px;
+button:hover:not(.active) {
+    background-color: #77b300;
+}
+ 
+.Sitetotal{
+    margin-left: 150px;
+    margin-right: 150px;
+  
+}
+
+body{
+    background-image: url("https://img3.stockfresh.com/files/z/zven0/m/83/7200503_stock-photo-white-wooden-plank.jpg");
+    
+}
+ h2{
+     padding: 0px 0px 0px 15px;
+     color: #77b300;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ h1{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-size: 40px;
+ }
+
+button{
+background-color: black;
+  border: solid red;
+  color: white;
+  font-size: 30px;
 }

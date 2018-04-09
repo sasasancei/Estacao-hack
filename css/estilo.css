@@ -6,7 +6,15 @@
     margin: 1px;
 }
 
-img {
+.rodape{
+    display: flex;
+    background: black;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
+
+.perfil {
     width: 400px;
     padding: 10px;
     border-radius: 70%;
@@ -19,18 +27,18 @@ img {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSlaaDJ0hokuX6rcpkZR-xPZ3dSif30cddG6d1Aq9LjWX5kJE")
 }
 
-.img1{
+#img1{
     float: right;
     margin: 15px;
 
 }
 
-.img2{
+#img2{
     float: left;
    margin: 15px;
 }
 
-.img3{
+#img3{
     float:right;
     margin: 15px;
 }
@@ -40,16 +48,6 @@ p {
     text-decoration: none;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 20px;
-}
-
-footer{
-
-    list-style-type: none;
-    padding: 30px;
-    overflow: hidden;
-    background-color: black;
-    text-align: center;
-    color: white;
 }
 
 button:hover:not(.active) {
@@ -87,5 +85,9 @@ body{
     margin-left: 70px;
     margin-right: 70px;
   
+}
+
+.github{
+    height:50px;
 }
 
